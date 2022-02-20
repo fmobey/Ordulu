@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="9aD-fk-0vA">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="orduluLogo" translatesAutoresizingMaskIntoConstraints="NO" id="BVD-3d-Dis">
+                                <rect key="frame" x="87" y="389" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="dCo-Li-Hpx"/>
+                                    <constraint firstAttribute="height" constant="128" id="dJC-Ev-QUo"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9aD-fk-0vA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Fds-x8-Ocl"/>
+                            <constraint firstItem="9aD-fk-0vA" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="I7O-Jn-ifa"/>
+                            <constraint firstAttribute="bottom" secondItem="9aD-fk-0vA" secondAttribute="bottom" id="JnM-PS-qLe"/>
+                            <constraint firstItem="9aD-fk-0vA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="T67-YR-STp"/>
+                            <constraint firstItem="BVD-3d-Dis" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mKA-aH-KOu"/>
+                            <constraint firstItem="BVD-3d-Dis" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="yKx-Z2-IR4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="540" height="960"/>
+        <image name="orduluLogo" width="540" height="169"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
